@@ -4,8 +4,7 @@ import re
 import random
 
 base_url = 'https://baike.baidu.com'
-# his = ['/item/%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%AB']
-his = ['/item/%E5%BC%B9%E7%B0%A7%E6%8C%AF%E5%AD%90']
+his = ['/item/%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%AB']
 
 for i in range(20):
     url = base_url + his[-1]
